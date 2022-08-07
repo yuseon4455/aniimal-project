@@ -1,0 +1,128 @@
+
+/* greeting css */
+
+#section01-introduce {
+    height: 650px;
+    margin-top: 80px;
+    outline: 1px solid red;
+}
+
+#section02-introduce {
+    height: 600px;
+    margin-top: 80px;
+    outline: 1px solid red;
+}
+
+
+#introduce-banner {
+    height: 150px;
+    background: #d9d9d9;
+    outline: 1px solid red;
+}
+
+#introduce-banner .intro{
+    width: 100%;
+    position: relative;
+    top: 52px;
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+}
+
+#section01-introduce .purpose {
+    position: relative;
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+}
+
+#section01-introduce hr{
+    width: 8%;
+    margin-left: 46%;
+    margin-top: 6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section01-introduce img{
+    position: relative;
+    margin-left: 84px;
+    margin-top: 102px;
+}
+
+#section01-introduce .pose {
+    position: relative;
+    width: 100%;
+    left: 660px;
+    font-size: 30px ;
+    /* margin-top: -28%; */
+    margin-top: -460px;
+    margin-left: 68px;
+}
+
+#section02-introduce .ethics{
+    position: relative;
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+}
+
+#section02-introduce hr{
+    width: 8%;
+    margin-left: 46%;
+    margin-top: 6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section02-introduce .swear01 {
+    width: 100%;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#section02-introduce .swear02 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#section02-container .number{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 38px;
+    margin-bottom: 37px;
+    margin-left: 32px;
+    /* margin-right: 40px; */
+}
+
+#section02-container {
+    width: 1200px;
+    /* width: 100%; */
+   margin-top: 26px;
+    /* margin-right: 14.5%; */
+    margin-left: 14.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+#section02-introduce .swear03{
+    width: 100%;
+    font-size: 18px; 
+    text-align: center;
+    margin-top: 14px;
+}
+
+#section02-introduce .swear04{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 12px;
+}

@@ -1,0 +1,24 @@
+/* 초기화 코드 */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    width: 1440px;
+    font-family: 'Noto Sans KR';
+  }

@@ -1,0 +1,36 @@
+/* style.css */
+:root {
+    --brand-color: #245124;
+    --bg-color: #fff;
+    --text-color-dark: #000;
+    --text-color-light: #888;
+    --pc-header-height: 90px;
+    --mobile-header-height: 60px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+ul {
+    list-style-type: none;
+}
+  
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
