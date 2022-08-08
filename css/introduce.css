@@ -1,28 +1,30 @@
 
-/* greeting css */
+/* introduce css */
 
 #section01-introduce {
     height: 650px;
     margin-top: 80px;
-    outline: 1px solid red;
+    display: flex;
+    /* outline: 1px solid red; */
 }
 
 #section02-introduce {
     height: 600px;
     margin-top: 80px;
-    outline: 1px solid red;
+    display: flex;
+    /* outline: 1px solid red; */
 }
 
 
 #introduce-banner {
     height: 150px;
     background: #d9d9d9;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 #introduce-banner .intro{
     width: 100%;
-    position: relative;
+    position: absolute;
     top: 52px;
     text-align: center;
     color: #000;
@@ -30,95 +32,86 @@
 }
 
 #section01-introduce .purpose {
-    position: relative;
+    position: absolute;
     width: 100%;
     font-size: 32px;
     text-align: center;
 }
 
 #section01-introduce hr{
+    position: absolute;
     width: 6%;
     margin-left: 47%;
-    margin-top: 6px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 3%;
 }
 
 #section01-introduce img{
-    position: relative;
+    position: absolute;
     margin-left: 14%;
-    margin-top: 102px;
+    margin-top: 8%;
 }
 
 #section01-introduce .pose {
-    position: relative;
+    position: absolute;
     width: 100%;
     left: 43%;
     font-size: 30px ;
-    /* margin-top: -28%; */
-    margin-top: -460px;
-    margin-left: 68px;
+    margin-top: 9%;
+    margin-left: 4.8%;
 }
 
 #section02-introduce .ethics{
-    position: relative;
+    position: absolute;
     width: 100%;
     font-size: 32px;
     text-align: center;
 }
 
 #section02-introduce hr{
+    position: absolute;
     width: 6%;
     margin-left: 47%;
-    margin-top: 6px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 3%;
 }
 
 #section02-introduce .swear01 {
+    position: absolute;
     width: 100%;
-    margin-top: 18px;
+    margin-top: 5%;
     text-align: center;
     font-size: 20px;
-}
-
-#section02-introduce .swear02 {
-    width: 100%;
-    text-align: center;
-    font-size: 20px;
+    padding: 0;
 }
 
 #section02-container {
+    position: relative;
     width: 63%;
-   margin-top: 26px;
-    /* margin-right: 14.5%; */
+    height: 300px;
+    margin-top: 10%;
     margin-left: 18.5%;
     border: 1px solid #000;
 }
 
 #section02-container .number{
+    position: absolute;
     width: 100%;
     font-size: 25px;
-    margin-top: 38px;
-    margin-bottom: 37px;
-    margin-left: 32px;
-    /* margin-right: 40px; */
+    margin-top: 3.5%;
+    margin-left: 3%;
 }
 
-#section02-introduce .swear03{
+#section02-introduce .swear02{
+    position: absolute;
     width: 100%;
     font-size: 18px; 
     text-align: center;
-    margin-top: 14px;
+    margin-top: 30%;
 }
 
-#section02-introduce .swear04{
+#section02-introduce .swear03{
+    position: absolute;
     width: 100%;
     font-size: 30px;
     text-align: center;
-    margin-top: 12px;
+    margin-top: 34%;
 }

@@ -1,9 +1,15 @@
 /* mobile.css */
 
-#section01-introduce 
-,#section02-introduce {
+#section01-introduce  {
 width: 100%;
-height: 50%;
+height: 550px;
+outline: 1px solid red;
+}
+
+#section02-introduce {
+  width: 100%;
+  height: 900px;
+  outline: 1px solid red;
 }
 
 #section01-login{
@@ -13,33 +19,88 @@ height: 50%;
 }
 
 /* introduce.css */
-#section-introduce hr {
-  width: 6%;
+#introduce-banner {
+  width: 100%;
+  outline: 1px solid red;
 }
+
+.intro {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  outline: 1px solid red;
+}
+
+#section01-introduce .purpose {
+  position: absolute;
+  text-align: center;
+}
+
+#section01-introduce hr {
+  position: absolute;
+  width: 30%;
+  margin-top: 12%;
+  margin-left: 35%;
+  text-align: center;
+}
+
 #section01-introduce img {
-  width: 70%;
-  margin-top: 30px;
-  /* margin-left: 20px; */
+  position: absolute;
+  width: 60%;
+  margin-top: 20%;
+  margin-left: 20%;
 }
 
 #section01-introduce .pose{
-  margin-top: 10%;
-  margin-left: -37%;
+  position: absolute;
+  margin-top: 85%;
+  margin-left: -35%;
   font-size: 14px;
+}
+
+#section02-introduce hr {
+  position: absolute;
+  width: 30%;
+  margin-top: 12%;
+  margin-left: 35%;
+  text-align: center;
 }
 
 #section02-container {
   width: 80%;
+  height: 410px;
+  margin-top: 58%;
   margin-left: 10%;
+  font-size: 16px;
 }
 
 #section02-introduce .number {
   font-size: 16px;
   margin-left: 1%;
-  margin-top: 20px;
+  margin-top: 4%;
   margin-bottom: 20px;
   padding: 4%;
 }
+
+#section02-introduce .swear01 {
+  position: absolute;
+  margin-top: 20%;
+  font-size: 16px;
+}
+
+#section02-container .swear02 {
+  /* position: absolute; */
+  margin-left: -5%;
+  margin-top: 15%;
+  font-size: 16px;
+}
+#section02-introduce .swear03 {
+  position: absolute;
+  margin-top: 70%;
+  margin-left: -5%;
+  font-size: 20px;
+}
+
 
 /* login.css */
 #login-logo img {
@@ -50,27 +111,45 @@ height: 50%;
 #login-logo hr {
   width: 85%;
   margin-left: 7.5%;
+  margin-top: 3%;
 }
 
-#section01-login .login-control {
-width: 70%;
-height: 50px;
-margin-left: 15%;
-font-size: 11px;
-padding: 3%;
+.login-email input[type="email"] {
+  width: 70%;
+  height: 50px;
+  margin-left: 15%;
+  margin-top: 3%;
+  font-size: 11px;
+  padding: 3%;
+}
+
+.login-email input[type="password"] {
+  width: 70%;
+  height: 50px;
+  margin-left: 15%;
+  margin-top: 19%;
+  font-size: 11px;
+  padding: 3%;
+}
+
+.login-checkbox {
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 35%;
 }
 
 .login-button {
   width: 70%;
-  height: 30px;
+  height: 40px;
   font-size: 14px;
   margin-left: 15%;
+  margin-top: 44%;
 }
 
 .login-password {
   margin-left: 16%;
   width: 257px;
-  margin-top: 15px;
+  margin-top: 58%;
   color: #155295;
   /* outline: 1px solid red; */
 }
@@ -85,19 +164,29 @@ padding: 3%;
   font-size: 7.7px;
 }
 
+.login-hr1 {
+  width: 28%;
+  margin-left: 16%;
+  margin-top: 67%;
+}
+
 .login-hr2 {
-  margin-left: 55%;
+  width: 28%;
+  margin-left: 57%;
+  margin-top: 67%;
 }
 
 .login-or p {
   width: 3%;
   font-size: 12px;
   margin-left: 49.7%;
+  margin-top: 65%;
 }
 
 .login-sns {
   width: 25%;
 margin-left: 39%;
 font-size: 27px;
+margin-top: 80%;
 /* outline: 1px solid red; */
 }
