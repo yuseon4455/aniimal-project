@@ -37,8 +37,8 @@
 }
 
 #section01-introduce hr{
-    width: 8%;
-    margin-left: 46%;
+    width: 6%;
+    margin-left: 47%;
     margin-top: 6px;
     text-align: center;
     display: flex;
@@ -48,14 +48,14 @@
 
 #section01-introduce img{
     position: relative;
-    margin-left: 84px;
+    margin-left: 14%;
     margin-top: 102px;
 }
 
 #section01-introduce .pose {
     position: relative;
     width: 100%;
-    left: 660px;
+    left: 43%;
     font-size: 30px ;
     /* margin-top: -28%; */
     margin-top: -460px;
@@ -70,8 +70,8 @@
 }
 
 #section02-introduce hr{
-    width: 8%;
-    margin-left: 46%;
+    width: 6%;
+    margin-left: 47%;
     margin-top: 6px;
     text-align: center;
     display: flex;
@@ -92,6 +92,14 @@
     font-size: 20px;
 }
 
+#section02-container {
+    width: 63%;
+   margin-top: 26px;
+    /* margin-right: 14.5%; */
+    margin-left: 18.5%;
+    border: 1px solid #000;
+}
+
 #section02-container .number{
     width: 100%;
     font-size: 25px;
@@ -99,18 +107,6 @@
     margin-bottom: 37px;
     margin-left: 32px;
     /* margin-right: 40px; */
-}
-
-#section02-container {
-    width: 1200px;
-    /* width: 100%; */
-   margin-top: 26px;
-    /* margin-right: 14.5%; */
-    margin-left: 14.5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #000;
 }
 
 #section02-introduce .swear03{

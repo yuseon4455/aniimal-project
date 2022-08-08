@@ -1,44 +1,87 @@
 /* mobile.css */
 
-/* #toggle-btn {
-    border-style: none;
-    font-size: 24px;
-    background: transparent;
-    cursor: pointer;
-  } */
-  
-  .bi-list {
-    font-size: 18px;
-  }
+#section01-introduce 
+,#section02-introduce {
+width: 100%;
+height: 50%;
+}
 
-  .container {
-    width: 100%;
-    /* max-width: 1440px;
-    margin: 0 auto; */
-    padding-left: 20px;
-    padding-right: 20px;
-    outline: 1px solid green;
-  }
+#section01-login{
+  width: 100%;
+  height: 450px;
+  outline: 1px solid red;
+}
 
-  #login-logo {
-    text-align: center;
-  }
+/* introduce.css */
+#section-introduce hr {
+  width: 6%;
+}
+#section01-introduce img {
+  width: 70%;
+  margin-top: 30px;
+  /* margin-left: 20px; */
+}
 
-  /* 메인 비주얼 */
-#main-visual {
-    /* background: #FCEEAD; */
-    width: 100%;
-    height: calc(100vh - var(--mobile-header-height));
-    box-sizing: content-box;
-    padding-top: var(--mobile-header-height);  
-  }
-  
-  #main-visual .container {
-    display: block;
-    /* background: #ccc; */
-    height: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
+#section01-introduce .pose{
+  margin-top: 10%;
+  margin-left: -37%;
+  font-size: 14px;
+}
+
+#section02-container {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#section02-introduce .number {
+  font-size: 16px;
+  margin-left: 1%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 4%;
+}
+
+/* login.css */
+#login-logo img {
+  width: 35%;
+  margin-left: 33%;
+}
+
+#section01-login .login-control {
+width: 50%;
+height: 50px;
+margin-left: 25%;
+font-size: 11px;
+padding: 3%;
+}
+
+.login-button {
+  width: 50%;
+  height: 30px;
+  font-size: 14px;
+  margin-left: 26%;
+}
+
+.login-password{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25%;
+}
+
+.passl , .passR {
+  font-size: 7.7px;
+}
+
+.login-or p {
+  width: 3%;
+  font-size: 12px;
+  margin-left: 49%;
+}
+
+.login-sns {
+  width: 25%;
+display: flex;
+margin-left: 39%;
+font-size: 30px;
+outline: 1px solid red;
+}

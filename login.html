@@ -31,7 +31,7 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-    <header id="main-header">
+    <!-- <header id="main-header">
           <h1>
             <a href="index.html">
               <img src="images/header-logo.png" alt="한국동물병원협회">
@@ -71,10 +71,7 @@
                 </li>
             </ul>
           </nav>
-          <!-- <button id="toggle-btn">
-            <i class="bi bi-list"></i>
-          </button>        -->
-      </header>
+      </header> -->
 
     <div id="login-logo">
         <img src="images/login-logo.png" alt="login-logo">
@@ -82,24 +79,30 @@
     </div>
 
     <div id="section01-login">
-        <div class="login-container1">
-            <p>이메일 주소</p>
-        </div>
-        <div class="login-container2">
-            <div class="login-box">
-            <p>비밀번호</p>
-            <a href="#"><i class="bi bi-eye-slash"></i></a>
+        <div class="login-email">
+            <input type="email" class="login-control" id="loginInput" placeholder="name@example.com">
+            <!-- <label for="loginInput"></label> -->
+          </div>
+          <div class="login-email">
+            <input type="password" class="login-control" id="loginPassword" placeholder="password">
+            <!-- <label for="loginPassword">Password</label> -->
+          </div>
+      
+          <div class="login-checkbox">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="login-button" type="submit">LOGIN</button>
+          <div class="login-password">
+            <div class="passw">
+              <div class="passl">아이디 | 비밀번호 찾기</div>
+              <div class="passR">회원가입  ▶</div>
             </div>
-        </div>
-        <div class="login-container3">
-            <p>LOGIN</p>
-        </div>
-        <p class="password">
-            아이디 | 비밀번호 찾기
-            회원가입  ▶
+          </div>
         </p>
         <div class="login-or">
-            <hr class="login-hr1">
+            <hr><hr>
             <p>or</p> 
             <hr class="login-hr2">
         </div>
@@ -111,7 +114,7 @@
     </div>
 
     <!--footer-->
-    <footer id="main-footer">
+    <!-- <footer id="main-footer">
         <img src="images/footer-logo.png" alt="대한동물병원협회">
         <nav class="footer-menu">
         <p>서울시 강남구 언주로 708, 경원빌딩 8층 한국동물병원협회 </p>
@@ -138,6 +141,6 @@
             <a href="#"><i class="bi bi-youtube"></i></a>
         </nav>
     </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
