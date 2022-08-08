@@ -8,8 +8,8 @@ height: 50%;
 
 #section01-login{
   width: 100%;
-  height: 450px;
-  outline: 1px solid red;
+  height: 600px;
+  /* outline: 1px solid red; */
 }
 
 /* introduce.css */
@@ -47,41 +47,57 @@ height: 50%;
   margin-left: 33%;
 }
 
+#login-logo hr {
+  width: 85%;
+  margin-left: 7.5%;
+}
+
 #section01-login .login-control {
-width: 50%;
+width: 70%;
 height: 50px;
-margin-left: 25%;
+margin-left: 15%;
 font-size: 11px;
 padding: 3%;
 }
 
 .login-button {
-  width: 50%;
+  width: 70%;
   height: 30px;
   font-size: 14px;
-  margin-left: 26%;
+  margin-left: 15%;
 }
 
-.login-password{
+.login-password {
+  margin-left: 16%;
+  width: 257px;
+  margin-top: 15px;
+  color: #155295;
+  /* outline: 1px solid red; */
+}
+
+.login-password .passw {
   display: flex;
   justify-content: space-between;
-  margin-left: 25%;
 }
 
-.passl , .passR {
+.passl, .passR {
+  margin: 0;
   font-size: 7.7px;
+}
+
+.login-hr2 {
+  margin-left: 55%;
 }
 
 .login-or p {
   width: 3%;
   font-size: 12px;
-  margin-left: 49%;
+  margin-left: 49.7%;
 }
 
 .login-sns {
   width: 25%;
-display: flex;
 margin-left: 39%;
-font-size: 30px;
-outline: 1px solid red;
+font-size: 27px;
+/* outline: 1px solid red; */
 }
