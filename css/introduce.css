@@ -75,12 +75,12 @@
     text-align: center;
 }
 
-.introduce-hr {
+.introduce2-hr {
     display: flex;
     justify-content: center;
 }
 
-.introduce-hr .introduce1-hr{
+.introduce2-hr .introduce3-hr{
     width: 100px;
     margin-top: 10px;
     height: 1px;
