@@ -100,14 +100,13 @@
         3. 동료 수의사들을 항상 존경하고 예의를 갖춰야 하며, 수 의사의 권익보호와 삶의 질을 향상시키도록 노력한다.<br>
         4. 어떤 환경에서라도 수의사의 위신을 유지하고 향상시키는 방향으로 처신한다.<br>
         5.고객과 일반대중을 존경심, 이해심 및 예의를 갖추고 대한다.<br>
-        6. 한국동물병원의 가이드라인을 준수하고 전파한다.
+        6. 한국동물병원의 가이드라인을 준수하고 전파한다.</div>
         <div class="swear02">이에 본인은 위 사항을 숙지하고 동의하였으며, 한국동물병원협회 회원으로서  자부심과 긍지를 갖고 [한국동물병원협회 윤리행<br>동강령]을 성실히 준수할 것을 서약하며, 본 서약을 위반시에는 회칙에 따른 어떠한 조치도 감수하겠습니다. </div>
         <div class="swear03">한국동물병원협회 귀중</div>
         </div>
-        </div>
     </div>
     
-    <footer id="main-footer" class="container">
+    <footer id="main-footer" class="container-n">
         <div class="fBox">
         <div>
           <img src="images/footer-logo.png" alt="대한동물병원협회">
@@ -121,15 +120,16 @@
         <div class="fr-menu">
           <nav class="family-site">
               <select 
+              onchange="if(this.value)window.open(this.value)"
               name="siteList" 
               id="siteList">
               <option disabled selected>family site</option>
-              <option value="#">대한수의사회</option>
-              <option value="#">ROYAL CANIN</option>
-              <option value="#">VALVET</option>
-              <option value="#">Hill's</option>
-              <option value="#">SANIMED</option>
-              <option value="#">Boehringer Ingelheim</option>
+              <option value="http://www.kvma.or.kr/">대한수의사회</option>
+              <option value="https://www.royalcanin.com/kr">ROYAL CANIN</option>
+              <option value="https://blog.naver.com/valvet_welcare/221492887463">VALVET</option>
+              <option value="https://www.hillspet.co.kr/">Hill's</option>
+              <option value="http://sanimed.co.kr/">SANIMED</option>
+              <option value="https://www.bikr.co.kr/">Boehringer Ingelheim</option>
               </select>
           </nav>
     
@@ -141,5 +141,6 @@
         </div>
         </div>
       </footer>
+    
 </body>
 </html>

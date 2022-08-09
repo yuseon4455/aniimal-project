@@ -25,7 +25,7 @@
 
 /* main-header */
 #main-header {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     height: var(--pc-header-height);
     background: #ccc;
@@ -142,30 +142,75 @@
     outline: 1px solid red;
 }
 
+/* pc.css */
+/* style.css */
+:root {
+    --brand-color: #245124;
+    --bg-color: #fff;
+    --text-color-dark: #000;
+    --text-color-light: #888;
+
+    --pc-header-height: 90px;
+    --mobile-header-height: 60px;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+ul {
+    list-style-type: none;
+}
+  
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+
+.container-n {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* outline: 1px solid red; */
+}
+
+
 /* footer */
 #main-footer {
     background: #F2F3F4;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     width: 100%;
-    box-sizing: content-box;
     margin-top: 50px;
     height: 160px;
-    display: flex;
-    flex-direction: column;
     color: #888;
+    position: relative;
 }
 
 #main-footer .fBox {
     padding-top: 26px;
     padding-bottom: 26px;
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
     height: 100%;
 }
 
 #main-footer .fBox .footer-menu {
     margin-top: 10px;
+    font-size: 14px;
 }
 
 #main-footer img {
@@ -179,19 +224,20 @@
 }
 
 #main-footer .sns-link a {
-    font-size: 38px;
+    font-size: 30px;
     color: #888;
     /* outline: 1px solid red; */
 }
 
-#main-footer .sns-link a:last-child {
-    margin-right: 0;
+#main-footer .fBox .fr-menu {
+    position: absolute;
+    right: 30px;
 }
 
 #main-footer .family-site {
+    margin: 0;
     /* outline: 1px solid green; */
     margin-top: 45px;
-    margin-right: 0px;
     width: 162px;
 }
 
@@ -201,4 +247,13 @@
     border: none;
     background: transparent;
     border-bottom: 1px solid #666;
+}
+
+#siteList {
+    outline: none;
+}
+
+#siteList option:hover {
+    background-repeat: #245214;
+    color: #fff;
 }

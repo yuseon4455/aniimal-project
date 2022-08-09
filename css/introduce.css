@@ -9,7 +9,7 @@
 }
 
 #section02-introduce {
-    height: 600px;
+    height: 650px;
     margin-top: 80px;
     display: flex;
     outline: 1px solid red;
@@ -89,10 +89,10 @@
 
 #section02-container {
     position: relative;
-    width: 78%;
+    width: 63%;
     height: 280px;
     margin-top: 10%;
-    margin-left: 11.8%;
+    margin-left: 18%;
     border: 1px solid #000;
 }
 
@@ -109,7 +109,7 @@
     width: 100%;
     font-size: 18px; 
     text-align: center;
-    margin-top: 5%;
+    margin-top: 25%;
 }
 
 #section02-introduce .swear03{
@@ -117,5 +117,5 @@
     width: 100%;
     font-size: 30px;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 30%;
 }
