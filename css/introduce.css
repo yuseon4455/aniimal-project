@@ -22,7 +22,6 @@
     align-items: center;
     justify-content: center;
     background: #d3d3d3;
-    margin-top: 50px;
     font-size: 32px;
     color: #fff;
     background-image: url(../images/introduce-banner.jpg);
@@ -43,12 +42,16 @@
     justify-content: center;
 }
 
-#section01-introduce hr{
-    position: relative;
-    width: 6%;
-    margin-left: 47%;
+.introduce-hr {
+    display: flex;
+    justify-content: center;
+}
+
+.introduce-hr .introduce1-hr{
+    width: 100px;
     margin-top: 10px;
-    border: 1px solid #000;
+    height: 1px;
+    background: #000;
 }
 
 .introduce-container img{
@@ -72,12 +75,16 @@
     text-align: center;
 }
 
-#section02-introduce hr{
-    position: relative;
-    width: 6%;
-    margin-left: 47%;
+.introduce-hr {
+    display: flex;
+    justify-content: center;
+}
+
+.introduce-hr .introduce1-hr{
+    width: 100px;
     margin-top: 10px;
-    border: 1px solid #000;
+    height: 1px;
+    background: #000;
 }
 
 #section02-introduce .swear01 {
