@@ -182,6 +182,11 @@ p {
 }
 
 
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
 .container-n {
     width: 100%;
     padding-left: 30px;
@@ -195,7 +200,7 @@ p {
     background: #F2F3F4;
     /* outline: 1px solid blue; */
     width: 100%;
-    margin-top: 50px;
+    margin-top: 120px;
     height: 160px;
     color: #888;
     position: relative;
@@ -257,3 +262,7 @@ p {
     background-repeat: #245214;
     color: #fff;
 }
+
+
+
+

@@ -1,12 +1,13 @@
 /* mobile.css */
 
 #section01-introduce  {
-max-width: 1320px;
-height: 800px;
+/* max-width: 1320px; */
+height: 850px;
+outline: 1px solid red;
 }
 
-#section02-introduce { 
-  height: 900px;
+#section02-ethics { 
+  height: 1000px;
   outline: 1px solid red;
 }
 
@@ -15,6 +16,247 @@ height: 800px;
   height: 480px;
   margin-top: 25px;
 }
+
+/* introduce.css */
+#introduce-banner {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #d3d3d3;
+  font-size: 32px;
+  color: #fff;
+  background-image: url(../images/introduce-banner.jpg);
+}
+
+.depth2-menu {
+  /* outline: 1px solid red; */
+  margin-bottom: 50px;
+  height: 70px;
+}
+
+.depth2-menu .d2-gnb {
+  /* outline: 1px solid green; */
+  border-bottom: 1px solid #d3d3d3;
+  display: flex;
+  /* align-items: flex-start; */
+}
+
+.depth2-menu .d2-gnb .greeting,
+.depth2-menu .d2-gnb .intro,
+.depth2-menu .d2-gnb .his,
+.depth2-menu .d2-gnb .found,
+.depth2-menu .d2-gnb .work
+{
+  color: #000;
+  width: 110px;
+  height: 70px;
+  margin: 0;
+  /* outline: 1px solid red; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.depth2-menu .d2-gnb .greeting.on,
+.depth2-menu .d2-gnb .intro.on
+
+{
+  color: #000;
+  width: 110px;
+  height: 70px;
+  margin: 0;
+  /* outline: 1px solid red; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #155295;
+}
+
+
+#section01-introduce .header {
+  width: 100%;    
+  font-size: 32px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  /* outline: 1px solid blue; */
+}
+
+#section01-introduce .header h1 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+}
+
+#section01-introduce .container {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+#section01-introduce .container .col img{
+width: 100%;
+}
+
+#section01-introduce .col p {
+  font-size: 16px;
+  font-weight: 500;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  /* width: 712px;
+  height: 430px; */
+}
+
+#section02-ethics .header {
+  width: 100%;    
+  font-size: 32px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 50px; */
+  /* outline: 1px solid blue; */
+}
+
+#section02-ethics .header h1 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+}
+
+#section02-ethics .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#section02-ethics .container .col p {
+  /* width: 1022px; */
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#section02-ethics .container .col.list {
+  outline: 1px solid #000;
+  /* padding: 10px 10px 15px 15px; */
+  padding-right: 20px;
+  /* padding-left: 5px; */
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#section02-ethics .container .col ol {
+  width: 220px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#section02-ethics .container .col ol li {
+  /* list-style-type: decimal; */
+  /* text-align: left; */
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  /* width: 1090px; */
+  /* margin-right: 0; */
+}
+
+#section02-ethics .container .col ol li:last-child {
+  margin-bottom: 0;
+}
+
+#section02-ethics .container .col h1 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* login.css */
+.login-logo img {
+  width: 35%;
+}
+
+.login-logo-hr {
+  display: flex;
+  justify-content: center;
+}
+
+.login-logo-hr .logo-hr .h {
+  width: 300px;
+  margin-top: 20px;
+  height: 8px;
+  background: #155295;
+}
+
+.login-email input[type="email"] {
+  width: 75%;
+  height: 50px;
+  font-size: 11px;
+}
+
+.login-email input[type="password"] {
+  width: 75%;
+  height: 50px;
+  font-size: 11px;
+
+}
+
+.login-button {
+  width: 75%;
+  height: 40px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.login-password  {
+  color: #155295;
+}
+
+.or-hr .or-hrbx .l {
+  width: 120px;
+  margin-top: 30px;
+  height: 1px;
+  background: #000;
+}
+
+.or-hr .or-hrbx p {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.or-hr .or-hrbx .r {
+  margin-top: 30px;
+  width: 120px;
+  height: 1px;
+  background: #000;
+}
+
+.login-sns {
+  font-size: 27px;
+}
+
+
+
+
+
 
 /* introduce.css */
 #introduce-banner {
@@ -116,70 +358,4 @@ height: 800px;
   width: 100%;
   font-size: 20px;
   text-align: center;
-}
-
-
-/* login.css */
-.login-logo img {
-  width: 35%;
-}
-
-.login-logo-hr {
-  display: flex;
-  justify-content: center;
-}
-
-.login-logo-hr .logo-hr .h {
-  width: 300px;
-  margin-top: 20px;
-  height: 8px;
-  background: #155295;
-}
-
-.login-email input[type="email"] {
-  width: 75%;
-  height: 50px;
-  font-size: 11px;
-}
-
-.login-email input[type="password"] {
-  width: 75%;
-  height: 50px;
-  font-size: 11px;
-
-}
-
-.login-button {
-  width: 75%;
-  height: 40px;
-  font-size: 14px;
-  margin-top: 20px;
-}
-
-.login-password  {
-  color: #155295;
-}
-
-.or-hr .or-hrbx .l {
-  width: 120px;
-  margin-top: 30px;
-  height: 1px;
-  background: #000;
-}
-
-.or-hr .or-hrbx p {
-  margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.or-hr .or-hrbx .r {
-  margin-top: 30px;
-  width: 120px;
-  height: 1px;
-  background: #000;
-}
-
-.login-sns {
-  font-size: 27px;
 }
