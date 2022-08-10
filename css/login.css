@@ -1,5 +1,12 @@
 /* login css  */
+
 #section01-login {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#section01-login01 {
     height: 600px;
     margin-top: 80px;
     width: 100%; 
@@ -8,9 +15,7 @@
     justify-content: center;
     outline: 1px solid red;
 }
-#section-login-logo {
-    height: 200px;
-    width: 100%;
+#section01-login .col img {
     text-align: center;
     align-items: center;
     justify-content: center;
