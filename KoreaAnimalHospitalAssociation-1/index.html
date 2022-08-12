@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국동물병원협회</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link 
+    rel="stylesheet" 
+    href="./css/mobile-ts.css" 
+    media="screen and (max-width: 767px)"
+    >
+  <!-- pc.css: 768px 부터(큰화면) - Breakpoint(중단점) -->
+  <link 
+    rel="stylesheet" 
+    href="./css/pc-ts.css"
+    media="screen and (min-width: 768px)"
+  >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header id="main-header" class="clearfix">
+        <div class="container">
+            <h1>
+                <a href="./index.html">
+                    <img src="images/main-logo.png" alt="main-logo">
+                </a>
+            </h1>
+            <nav>
+                <div class="nav-bg"></div>
+                <ul class="gnb">
+                    <li><a href="#">KAHA소개</a>
+                        <ul class="sub">
+                            <li><a href="./greeting.html">인사말</a></li>
+                            <li><a href="./introduce.html">설립목적</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">기구</a></li>
+                            <li><a href="#">주요업무</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">홍보활동</a>
+                        <ul class="sub">
+                            <li><a href="./noti.html">공지사항</a></li>
+                            <li><a href="./news.html">보도자료</a></li>
+                            <li><a href="./login.html">자료실</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./login.html">학술지원</a></li>
+                    <li><a href="./community.html">커뮤니티</a></li>
+                    <li><a href="./waytocome.html">오시는 길</a></li>
+                </ul>
+            </nav>
+            <button id="log-btn"><a href="./login.html">LOGIN</a></button>
+            <button id="toggle-btn">
+               <i class="bi bi-list"></i>
+            </button>
+        </div>
+
+         <!-- 메뉴 슬라이드  -->
+
+         <div id="menu">
+            <article>
+                <h1>
+                    <a href="./index.html">
+                        <img src="images/main-logo.png" alt="menu-main-logo">
+                    </a>
+                </h1>
+                <i class="bi bi-x gnb-close"></i>
+            </article>
+            <ul class="m-gnb">
+                <li><a>KAHA소개</a>
+                <ul class="m-sub">
+                    <a href="./greeting.html"><li>인사말</li></a>
+                    <a href="./introduce.html"><li>설립목적</li></a>
+                    <a href="./"><li>연혁</li></a>
+                    <a href="./"><li>기구</li></a>
+                    <a href="./"><li>주요업무</li></a>
+                </ul>
+                </li>
+            
+               <li><a>홍보활동</a>
+                    <ul class="m-sub">
+                        <a href="./noti.html"><li>공지사항</li></a>
+                        <a href="./news.html"><li>보도자료</li></a>
+                        <a href="./login.html"><li>자료실</li></a>
+                    </ul>
+                </li>
+            
+                <a href="./login.html"><li>학술지원</li></a>
+                <a href="./community.html"><li>커뮤니티</li></a>
+                <a href="./waytocome.html"><li>오시는길</li></a>
+            </ul> 
+            <div class="log-box">
+            <a href="./login.html">로그인</a>
+            <a href="#">회원가입</a>
+        </div>
+        </div>
+    </header>
+    
+
+     <!-- main-visual -->
+     <div id="main-visual">
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="images/main-visual1.png" alt="m-1"></div>
+          <div class="swiper-slide"><img src="images/main-visual2.png" alt="m-2"></div>
+          <div class="swiper-slide"><img src="images/main-visual3.png" alt="m-3"></div>
+        </div>
+        <!-- page -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <section id="main-count" class="container">
+        <div class="count">
+            <div class="circle">
+                    <a href="#">
+                        <img src="images/location.png" alt="지역">
+                    </a>
+            </div>
+            <h1 class="number1">0</h1>
+            <p>지역지부</p>
+        </div>
+        <div class="count">
+            <div class="circle">
+                    <a href="#">
+                        <img src="images/hospital.png" alt="병원">
+                    </a>
+            </div>
+            <h1 class="number2">0</h1>
+            <p>병원수</p>
+        </div>
+        <div class="count">
+            <div class="circle">
+                    <a href="#">
+                        <img src="images/people.png" alt="멤버">
+                    </a>
+            </div>
+            <h1 class="number3">0</h1>
+            <p>회원수</p>
+        </div>
+    </section>
+
+    <section id="contents" class="container">
+        <div class="con1">
+            <div class="image">
+                <h1>
+                <img src="images/content-1.png" alt="c-1">
+            </h1>
+            </div>
+            <div class="text">
+                <div class="logo-img">
+                <img src="images/mars-logo.png" alt="mars-logo">
+                </div>
+                <div class="text-box">
+                <p>Mars는 반려동물들이 환영받으며<br>
+                건강하고 행복하게 살아갈 수 있는 세상인<br>
+                <span>'A Better World For Pets™'</span><br>
+                를 만드는 데 열정을 쏟고 있습니다.</p>
+            </div>
+            <a href="#">VIEW MORE</a>
+        </div>
+        </div>
+        <div class="con2">
+            <div class="image">
+                <img src="images/content-2.png" alt="c-2">
+            </div>
+            <div class="text">
+                <div class="logo-img">
+                    <img src="images/hills-logo.png" alt="hills-logo">
+                    </div>
+                <div class="text-box">
+                <p>반려동물들을 위한<span>과학</span>을 기반으로<br>
+                여러분이 보고, 느끼고, 신뢰할 수 있는 <br> 
+                변화를 만들어 냅니다.</p>
+            </div>
+                <a href="#">VIEW MORE</a>
+            </div>
+         </div>
+    </section>
+
+    <section id="main" class="container">        
+        <div class="main-title">
+        <h1>KAHA 소식</h1>
+        </div>
+            <div class="main-wrap">
+                <div class="tab_buttons">
+              <a href="#news" class="news-btn">NEWS</a>
+              <a href="#notice" class="notice-btn">공지사항</a>
+            </div>
+            <div id="news"> 
+                <div class="col">
+                  <ul>
+                    <li>
+                        <a href="#">
+                            <span>KAHA 온라인학술대회 2년 연속 성공 개최..역대 최대 1200여명 참석</span>
+                            <button>></button>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                      <li>
+                          <a href="#">
+                              <span>‘연수교육 5시간 인정’ KAHA 온라인컨퍼런스 마감 D-7</span>
+                              <button>></button>
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <ul>
+                      <li>
+                          <a href="#">
+                              <span>로얄캐닌, 한국동물병원협회·서울시수의사회와 함께 사료 2톤 기부</span>
+                              <button>></button>
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+              
+            </div>
+            <div id="notice">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="title">개인정보 처리방침 변경사항 안내</span>
+                            <span class="write">작성일 : 2022.08.04</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="title">개인정보 처리방침 변경사항 안내</span>
+                            <span class="write">작성일 : 2022.08.04</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="title">개인정보 처리방침 변경사항 안내</span>
+                            <span class="write">작성일 : 2022.08.04</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <div class="video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/C80WPeB96_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div>
+            <h1>
+                <a href="./index.html">
+                    <img src="images/footer-logo.png" alt="footer-logo">
+                </a>
+            </h1>
+            <p>서울시 강남구 언주로 708, 경원빌딩 8층 한국동물병원협회</p>
+            <p>TEL : 02-522-4722 FAX:02-522-4740 E-mail: kaha@hanmail.net</p>
+            <p>Copyright 2019 BY KOREAN ANIMAL HOSPITAL ASSOCIATION ALL RIGHTS RESERVED</p>
+         </div>
+         <div>
+         <div class="site">
+            <form>
+                <select name="Family Site" onchange="window.open(value,'_blank');">
+                  <option value="">Family Site</option>
+                  <option value="https://www.royalcanin.com/kr?utm_source=naver&utm_medium=brandsearchPC&utm_content=homelink">ROYAL CANIN</option>
+                  <option value="http://sanimed.co.kr/">SANIMED</option>
+                  <option value="https://www.valvet.co.kr/">VALVET</option>
+                  <option value="https://www.hillspet.co.kr/science-diet?utm_source=naver&utm_medium=cpc&utm_campaign=consideration&dclid=CjkKEQjwi8iXBhCH4qTo0eHB5a4BEiQAcEheL40LYu0FCS-szICzCmqTv825l9DMSDCf8vn1WVIPtw3w_wcB">Hills</option>
+                  <option value="https://www.boehringer-ingelheim.com/">Boehringer Ingelheim</option>
+                  </optgroup>
+                </select>
+              </form>
+          </div>
+          <div class="icon-box">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        </div>
+    </footer>
+                    
+    </body>
+    </html>

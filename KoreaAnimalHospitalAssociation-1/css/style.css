@@ -1,0 +1,53 @@
+/* reset */
+:root {
+    --brand-color : #155299;
+    --bg-color : #fff;
+
+    --pc-header-height: 90px;
+    --mobile-header-height: 60px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #000;
+    background: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* width: 100vw; */
+}
