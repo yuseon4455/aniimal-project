@@ -1,0 +1,437 @@
+/* community-m.css */
+.container {
+    width: 100%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    /* outline: 1px solid red; */
+}
+
+.container-sj {
+    width: 100%;
+    /*outline: 1px solid red; */
+    margin: 0 auto;
+}
+
+/* main-header */
+#main-header {
+    width: 100vw;
+    height: 60px;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    position: fixed;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+#main-header .container-ts {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 1px solid red; */
+} 
+
+#main-header h1 {
+    padding-left: 10px;
+    padding-top: 15px;
+    float: left;
+}
+
+#main-header h1 img {
+    display: block;
+    width: 180px;
+}
+
+#main-header nav {
+    display: none;
+}
+
+#log-btn {
+    display: none;
+}
+
+#toggle-btn {
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    padding-top: 15px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+/* 메뉴 슬라이드 */
+#menu{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  overflow: scroll;
+}
+
+#menu article{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu article h1 {
+  padding: 10px;
+}
+
+#menu article .bi {
+  padding-right: 20px;
+}
+
+
+#menu article .gnb-close{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#menu ul{
+  width: 100%;
+  padding-top: 20px;
+}
+
+#menu > a{
+  display: block;
+  width: 100%;
+  padding: 20px ;
+  /* border-bottom: 1px solid #333; */
+}
+
+#menu a li{
+  font-size: 16px;
+  /* padding-left: 15px; */
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#menu li a {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.m-gnb li > a{
+  border-bottom: 1px solid #000;
+}
+
+
+.m-gnb > a > li {
+  border-bottom: 1px solid #000;
+}
+
+
+
+#menu a:hover li{
+  color: #155299;
+  font-weight: 700;
+}
+
+#menu li a:hover {
+  color: #155299;
+  font-weight: 700;
+}
+
+.m-sub {
+  display: none;
+}
+
+
+.m-sub a, .m-gnb a{
+  display: block;
+  /* padding: 5px; */
+}
+
+.log-box {
+  width: 100vw;
+  margin-top: 20px;
+  margin-left: 25px;
+  
+  
+}
+
+.log-box a {
+  display: block;
+  line-height: 50px;
+}
+
+.log-box a:hover {
+  color: #155299;
+}
+
+
+.container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    /* outline: 1px solid red; */
+ }
+
+/* news.css */
+a:hover {
+    text-decoration: none;
+}
+
+/* 이미지 배너 */
+#banner-title {
+    /* outline: 1px solid red; */
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: calc(150px + var(--mobile-header-height));
+    background-image: url(../images/comu-title.jpg);
+    padding-top: var(--mobile-header-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 2단계 메뉴 */
+.depth2-menu {
+    /* outline: 1px solid red; */
+    margin-bottom: 50px;
+    height: 70px;
+    width: 100%;
+}
+
+.depth2-menu .d2-gnb {
+    /* outline: 1px solid green; */
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    /* align-items: flex-start; */
+}
+
+.depth2-menu .d2-gnb .comu
+{
+    color: #000;
+    width: 110px;
+    height: 70px;
+    margin: 0;
+    /* outline: 1px solid red; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.depth2-menu .d2-gnb .comu.on
+{
+    color: #000;
+    width: 110px;
+    height: 70px;
+    margin: 0;
+    /* outline: 1px solid red; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #155295;
+}
+
+/* ------------------------------------------------------------------ */
+
+#intro1 .header {
+  display: flex;
+    justify-content: center;
+}
+
+.comu-title {
+    font-size: 20px;
+    /* width: 250px; */
+    /* outline: 1px solid blue; */
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+#intro1 h2 {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #intro1 p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  
+  #intro1 .row img{
+    width: 100%;
+    /*outline: 8px solid #01010e5d;*/
+    /* margin-left: 25px;
+    margin-right: 25px; */
+    margin-bottom: 20px;
+  }
+
+  #intro .container .row .col-img  img {
+    width: 100%;
+  }
+
+  #FAQ-banner.container{
+    width: 375px;
+    height: 320px;
+    background: #ccc; 
+  }
+
+  #FAQ-banner p{
+    font-size: 14px;
+  }
+  
+  #FAQ-banner h2{
+    font-size: 23.95px;
+    padding-left: 50px;
+    padding-top:30px;
+    margin-bottom: 39px;
+  }
+  
+  #FAQ-banner h3{
+    width: 100%;
+    padding-top:20px;
+    font-size: 16px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(133, 133, 133);
+  }
+
+  #FAQ-banner h3 img {
+    margin-right: 20px;
+  }
+
+  #FAQ-banner h3:last-child {
+    border-bottom: none;
+  }
+
+  #FAQ-banner .FaQ-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid brown; */
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+
+#FAQ-banner .FaQ-box img {
+    width: 50px;
+}
+
+#FAQ-banner .FaQ-box h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+  #FAQ-banner .faq{
+    width: 100%;
+    height: 245px;
+    background-color: #ccc;
+    margin-bottom: 53px;
+  }
+  
+  #intro .row .col-img img{
+    width: 100%;
+    margin-bottom: 15px;
+    /* height: 225px; */
+    /* padding: 10px; */
+    /* margin-left: 25px;
+    margin-right: 25px; */
+  }
+
+  #intro .col-text h4 {
+    display: none;
+  }
+
+  #intro .col-text h4:first-child {
+    display: flex;
+    /* outline: 1px solid blue; */
+    justify-content: center;
+  }
+
+/* footer */
+footer {
+    width: 100vw;
+    height: 190px;
+    /* background: #f2f3f4; */
+    margin-top: calc(100px - 15px);
+  }
+  
+  footer h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer h1 a {
+    height: 39.66px;
+  }
+  
+  footer h1 img {
+    width: 200px;
+  }
+  
+  footer p {
+    padding-left: 20px;
+    font-size: 10px;
+    color: #888;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .site {
+    text-align: center;
+  }
+  
+  select {
+    -webkit-appearance:none; /* for chrome */
+    -moz-appearance:none; /*for firefox*/
+    appearance:none;
+    text-align-last: center;
+    color: #888;
+    font-size: 12px;
+    width: 110px;
+    height: 20px;
+    border-style: none;
+    border-bottom: 1px solid #888;
+    background: url(../images/up.png);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    outline-style: none;
+  }
+  
+  .icon-box {
+    text-align: center;
+    padding-left: 10px;
+  }
+  
+  .icon-box a{
+    font-size: 18px;
+    color: #666;
+    padding-right: 10px;
+  }

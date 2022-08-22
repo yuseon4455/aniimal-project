@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국동물병원협회</title>
+    <!-- Noto Sans KR -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- style.css(공통) -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="css/news.css"> -->
+    <!-- mobile.css -->
+    <link 
+    rel="stylesheet" 
+    href="./css/mobile-una.css" 
+    media="screen and (max-width: 767px)"
+    >
+ 
+    <!-- pc.css -->
+    <link 
+    rel="stylesheet" 
+    href="./css/pc-una.css"
+    media="screen and (min-width: 768px)"
+    >
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.js"></script>
+    
+    <script src="js/main.js"></script>
+</head>
+<body>
+  <header id="main-header" class="clearfix">
+    <div class="container-ts">
+        <h1>
+            <a href="./index.html">
+                <img src="images/main-logo.png" alt="main-logo">
+            </a>
+        </h1>
+        <nav>
+            <div class="nav-bg"></div>
+            <ul class="gnb">
+                <li><a href="./greeting.html">KAHA소개</a>
+                    <ul class="sub">
+                        <li><a href="./greeting.html">인사말</a></li>
+                        <li><a href="./introduce.html">설립목적</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">기구</a></li>
+                        <li><a href="#">주요업무</a></li>
+                    </ul>
+                </li>
+                <li><a href="./noti.html">홍보활동</a>
+                    <ul class="sub">
+                        <li><a href="./noti.html">공지사항</a></li>
+                        <li><a href="./news.html">보도자료</a></li>
+                        <li><a href="./login.html">자료실</a></li>
+                    </ul>
+                </li>
+                <li><a href="./login.html">학술지원</a></li>
+                <li><a href="./community.html">커뮤니티</a></li>
+                <li><a href="./waytocome.html">오시는 길</a></li>
+            </ul>
+        </nav>
+        <button id="log-btn"><a href="./login.html">LOGIN</a></button>
+        <button id="toggle-btn">
+           <i class="bi bi-list"></i>
+        </button>
+    </div>
+
+             <!-- 메뉴 슬라이드  -->
+
+             <div id="menu">
+              <article>
+                  <h1>
+                      <a href="./index.html">
+                          <img src="images/main-logo.png" alt="menu-main-logo">
+                      </a>
+                  </h1>
+                  <i class="bi bi-x gnb-close"></i>
+              </article>
+              <ul class="m-gnb">
+                  <li><a>KAHA소개</a>
+                  <ul class="m-sub">
+                      <a href="./greeting.html"><li>인사말</li></a>
+                      <a href="./introduce.html"><li>설립목적</li></a>
+                      <a href="./"><li>연혁</li></a>
+                      <a href="./"><li>기구</li></a>
+                      <a href="./"><li>주요업무</li></a>
+                  </ul>
+                  </li>
+              
+                 <li><a>홍보활동</a>
+                      <ul class="m-sub">
+                          <a href="./noti.html"><li>공지사항</li></a>
+                          <a href="./news.html"><li>보도자료</li></a>
+                          <a href="./login.html"><li>자료실</li></a>
+                      </ul>
+                  </li>
+              
+                  <a href="./login.html"><li>학술지원</li></a>
+                  <a href="./community.html"><li>커뮤니티</li></a>
+                  <a href="./waytocome.html"><li>오시는길</li></a>
+              </ul> 
+              <div class="log-box">
+              <a href="./login.html">로그인</a>
+              <a href="#">회원가입</a>
+          </div>
+          </div>
+  
+</header>
+
+    <!-- 배너 -->
+    <div id="banner-title">KAHA 소식</div>
+
+    <!-- 2단계 메뉴 -->
+    <div class="depth2-menu">
+      <div class="d2-gnb">
+          <a href="./news.html" class="news">NEWS</a>
+          <a href="./noti.html" class="noti on">공지사항</a>
+      </div>
+    </div>
+
+    <!-- 검색 -->
+    <div class="search container">
+        <div class="search-box">
+          <select name="search-option" id="s-option">
+            <option value="#">전체</option>
+            <option value="#">제목</option>
+            <option value="#">내용</option>
+          </select>
+            <input type="text">
+            <button class="search-btn" type="submit">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- 공지사항 목록 -->
+    <section class="container">
+    <div id="board-list noti" class="tab_contents">
+      <div>
+          <table class="board-table">
+              <thead>
+              <tr>
+                  <th scope="col" class="th-num">번호</th>
+                  <!-- <th scope="col" class="th-title">제목</th>
+                  <th scope="col" class="th-date">등록일</th> -->
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                  <td>1</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.07.13</td> -->
+              </tr>
+
+              <tr>
+                  <td>2</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+
+              <tr>
+                  <td>3</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>4</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>5</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>6</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>7</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>8</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  </section>
+
+
+    <!-- 목록 페이지 -->
+    <div class="pagination container">
+    <ul class="page-box">
+      <!-- <li><a href="#"><i class="bi bi-chevron-left"></i></a></li> -->
+      <li><a href="./noti.html" class="on">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
+    </ul>
+    </div>
+
+    <footer>
+      <div class="container">
+          <div>
+          <h1>
+              <a href="./index">
+                  <img src="images/footer-logo.png" alt="footer-logo">
+              </a>
+          </h1>
+          <p>서울시 강남구 언주로 708, 경원빌딩 8층 한국동물병원협회</p>
+          <p>TEL : 02-522-4722 FAX:02-522-4740 E-mail: kaha@hanmail.net</p>
+          <p>Copyright 2019 BY KOREAN ANIMAL HOSPITAL ASSOCIATION ALL RIGHTS RESERVED</p>
+       </div>
+       <div>
+       <div class="site">
+          <form>
+              <select name="Family Site" onchange="window.open(value,'_blank');">
+                <option value="">Family Site</option>
+                <option value="https://www.royalcanin.com/kr?utm_source=naver&utm_medium=brandsearchPC&utm_content=homelink">ROYAL CANIN</option>
+                <option value="http://sanimed.co.kr/">SANIMED</option>
+                <option value="https://www.valvet.co.kr/">VALVET</option>
+                <option value="https://www.hillspet.co.kr/science-diet?utm_source=naver&utm_medium=cpc&utm_campaign=consideration&dclid=CjkKEQjwi8iXBhCH4qTo0eHB5a4BEiQAcEheL40LYu0FCS-szICzCmqTv825l9DMSDCf8vn1WVIPtw3w_wcB">Hills</option>
+                <option value="https://www.boehringer-ingelheim.com/">Boehringer Ingelheim</option>
+                </optgroup>
+              </select>
+            </form>
+        </div>
+        <div class="icon-box">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      </div>
+  </footer>
+</body>
+</html>

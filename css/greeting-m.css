@@ -1,0 +1,368 @@
+/* greeting-m.css */
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.container-n {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* outline: 1px solid red; */
+}
+
+/* main-header */
+#main-header {
+    width: 100vw;
+    height: 60px;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    position: fixed;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  
+  #main-header .container-ts {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #main-header h1 {
+    padding-left: 10px;
+    padding-top: 15px;
+    float: left;
+  }
+  
+  #main-header h1 img {
+    display: block;
+    width: 180px;
+  }
+  
+  #main-header nav {
+    display: none;
+  }
+  
+  #log-btn {
+    display: none;
+  }
+  
+  #toggle-btn {
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    padding-top: 15px;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .search {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    /* outline: 1px solid red; */
+  }
+  
+/* 메뉴 슬라이드 */
+#menu{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  overflow: scroll;
+}
+
+#menu article{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu article h1 {
+  padding: 10px;
+}
+
+#menu article .bi {
+  padding-right: 20px;
+}
+
+
+#menu article .gnb-close{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#menu ul{
+  width: 100%;
+  padding-top: 20px;
+}
+
+#menu > a{
+  display: block;
+  width: 100%;
+  padding: 20px ;
+  /* border-bottom: 1px solid #333; */
+}
+
+#menu a li{
+  font-size: 16px;
+  /* padding-left: 15px; */
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#menu li a {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.m-gnb li > a{
+  border-bottom: 1px solid #000;
+}
+
+
+.m-gnb > a > li {
+  border-bottom: 1px solid #000;
+}
+
+
+
+#menu a:hover li{
+  color: #155299;
+  font-weight: 700;
+}
+
+#menu li a:hover {
+  color: #155299;
+  font-weight: 700;
+}
+
+.m-sub {
+  display: none;
+}
+
+
+.m-sub a, .m-gnb a{
+  display: block;
+  /* padding: 5px; */
+}
+
+.log-box {
+  width: 100vw;
+  margin-top: 20px;
+  margin-left: 25px;
+  
+  
+}
+
+.log-box a {
+  display: block;
+  line-height: 50px;
+}
+
+.log-box a:hover {
+  color: #155299;
+}
+
+
+  /* introduce.css */
+  #introduce-banner {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: calc(150px + var(--mobile-header-height));
+    background-image: url(../images/grt-banner.jpg);
+    background-position: center;
+    padding-top: var(--mobile-header-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.depth2-menu {
+    /* outline: 1px solid red; */
+    margin-bottom: 50px;
+    height: 70px;
+}
+
+.depth2-menu .d2-gnb {
+    /* outline: 1px solid green; */
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    /* align-items: flex-start; */
+}
+
+.depth2-menu .d2-gnb .greeting,
+.depth2-menu .d2-gnb .intro,
+.depth2-menu .d2-gnb .his,
+.depth2-menu .d2-gnb .found,
+.depth2-menu .d2-gnb .work
+{
+    color: #000;
+    width: 110px;
+    height: 70px;
+    margin: 0;
+    /* outline: 1px solid red; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.depth2-menu .d2-gnb .greeting.on,
+.depth2-menu .d2-gnb .intro.on
+{
+    color: #000;
+    width: 110px;
+    height: 70px;
+    margin: 0;
+    /* outline: 1px solid red; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #155295;
+}
+
+#main-visual .header {
+    width: 100%;    
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    /* outline: 1px solid blue; */
+}
+
+#main-visual .header h1 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+#main-visual .container {
+    width: 100%;
+    /* outline: 1px solid red; */
+    /* height: 1135px; */
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+}
+
+#main-visual .container .col img {
+    width: 200px;
+    /* height: 200px; */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+    /* outline: 1px solid blue; */
+}
+
+#main-visual .container .col .hello {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+    /* outline: 1px solid green; */
+    margin-bottom: 30px;
+}
+
+#main-visual .container .col .hello span {
+    color: #155295;
+}
+
+#main-visual .container .col p {
+    font-size: 15px;
+    line-height: 38px;
+}
+
+#main-visual .container .col .name {
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    width: 100vw;
+    height: 190px;
+    /* background: #f2f3f4; */
+    margin-top: 100px;
+  }
+  
+  footer h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer h1 a {
+    height: 39.66px;
+  }
+  
+  footer h1 img {
+    width: 200px;
+  }
+  
+  footer p {
+    padding-left: 20px;
+    font-size: 10px;
+    color: #888;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .site {
+    text-align: center;
+  }
+  
+  select {
+    -webkit-appearance:none; /* for chrome */
+    -moz-appearance:none; /*for firefox*/
+    appearance:none;
+    text-align-last: center;
+    color: #888;
+    font-size: 12px;
+    width: 110px;
+    height: 20px;
+    border-style: none;
+    border-bottom: 1px solid #888;
+    background: url(../images/up.png);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    outline-style: none;
+  }
+  
+  .icon-box {
+    text-align: center;
+    padding-left: 10px;
+  }
+  
+  .icon-box a{
+    font-size: 18px;
+    color: #666;
+    padding-right: 10px;
+  }

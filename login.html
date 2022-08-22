@@ -10,19 +10,18 @@
     <!-- Bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- style.css(공통) -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- login.css -->
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="./css/style.css">
+
     <!-- mobile.css -->
     <link 
     rel="stylesheet" 
-    href="css/mobile.css" 
+    href="./css/login-m.css" 
     media="screen and (max-width: 767px)"
     >
     <!-- pc.css -->
     <link 
     rel="stylesheet" 
-    href="css/pc.css"
+    href="./css/login-pc.css"
     media="screen and (min-width: 768px)"
     >
     <!-- jquery -->
@@ -32,52 +31,86 @@
 </head>
 <body>
 
-  <header id="main-header">
-    <div class="container">
-        <h1>
-            <a href="index.html">
-                <img src="images/header-logo.png" alt="한국동물병원협회">
-            </a>
-        </h1>
-        <nav id="gnb">
-            <ul class="depth1">
-                <li>
-                    <a href="#">KAHA 소개</a>
-                    <ul class="depth2">
-                        <li><a href="#">인사말</a></li>
-                        <li><a href="#">설립목적</a></li>
-                        <li><a href="#">연혁</a></li>
-                        <li><a href="#">기구</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">KAHA 소식</a>
-                    <ul class="depth2">
-                        <li><a href="#">뉴스</a></li>
-                        <li><a href="#">공지사항</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">커뮤니티</a>
-                    <ul class="depth2">
-                        <li><a href="#">자유게시판</a></li>
-                        <li><a href="#">협회지</a></li>
-                        <li><a href="#">자료실</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">오시는길</a>
-                </li>
-                <li>
-                    <a href="#">LOGIN</a>
-                </li>
-            </ul>
-        </nav>
-        <button id="toggle-btn">
-            <i class="bi bi-list"></i>
-        </button>
-</header>
-
+    <header id="main-header" class="clearfix container">
+        <div class="container-ts">
+            <h1>
+                <a href="./index.html">
+                    <img src="images/main-logo.png" alt="main-logo">
+                </a>
+            </h1>
+            <nav>
+                <div class="nav-bg"></div>
+                <ul class="gnb">
+                    <li><a href="./greeting.html">KAHA소개</a>
+                        <ul class="sub">
+                            <li><a href="./greeting.html">인사말</a></li>
+                            <li><a href="./introduce.html">설립목적</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">기구</a></li>
+                            <li><a href="#">주요업무</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./noti.html">홍보활동</a>
+                        <ul class="sub">
+                            <li><a href="./noti.html">공지사항</a></li>
+                            <li><a href="./news.html">보도자료</a></li>
+                            <li><a href="./login.html">자료실</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./login.html">학술지원</a></li>
+                    <li><a href="./community.html">커뮤니티</a></li>
+                    <li><a href="./waytocome.html">오시는 길</a></li>
+                </ul>
+            </nav>
+            <button id="log-btn"><a href="./login.html">LOGIN</a></button>
+            <button id="toggle-btn">
+               <i class="bi bi-list"></i>
+            </button>
+        </div>
+    
+                 <!-- 메뉴 슬라이드  -->
+    
+                 <div id="menu">
+                  <article>
+                      <h1>
+                          <a href="./index.html">
+                              <img src="images/main-logo.png" alt="menu-main-logo">
+                          </a>
+                      </h1>
+                      <i class="bi bi-x gnb-close"></i>
+                  </article>
+                  <ul class="m-gnb">
+                      <li><a>KAHA소개</a>
+                      <ul class="m-sub">
+                          <a href="./greeting.html"><li>인사말</li></a>
+                          <a href="./introduce.html"><li>설립목적</li></a>
+                          <a href="./"><li>연혁</li></a>
+                          <a href="./"><li>기구</li></a>
+                          <a href="./"><li>주요업무</li></a>
+                      </ul>
+                      </li>
+                  
+                     <li><a>홍보활동</a>
+                          <ul class="m-sub">
+                              <a href="./noti.html"><li>공지사항</li></a>
+                              <a href="./news.html"><li>보도자료</li></a>
+                              <a href="./login.html"><li>자료실</li></a>
+                          </ul>
+                      </li>
+                  
+                      <a href="./login.html"><li>학술지원</li></a>
+                      <a href="./community.html"><li>커뮤니티</li></a>
+                      <a href="./waytocome.html"><li>오시는길</li></a>
+                  </ul> 
+                  <div class="log-box">
+                  <a href="./login.html">로그인</a>
+                  <a href="#">회원가입</a>
+              </div>
+              </div>
+      
+    </header>
+    
+    <div class="login-con">
     <section id="section01-login">
       <article>   
           <div class="container-login">
@@ -94,7 +127,7 @@
   </section>
 
     <section id="section01-login01">
-      <div class="login-container">
+      <nav class="login-container">
         <div class="login-email">
             <input type="email" class="login-control" id="loginInput" placeholder="name@example.com">
           </div>
@@ -103,59 +136,61 @@
           </div>
 
           <button class="login-button" type="submit">LOGIN</button>
-          <div class="login-password">
+          <h1 class="login-password">
               <div class="passl">
-                아이디 | 비밀번호 찾기 | 회원가입 </div>
-            </div>
-            <div class="or-hr">
+                아이디 | 비밀번호 찾기 | 회원가입 ▶</div>
+              </h1>
+            <h1 class="or-hr">
               <div class="or-hrbx">
                   <div class="l"></div>
                   <p>or</p>
                   <div class="r"></div>
               </div>
-             </div> 
+            </h1> 
+            <nav class="login-sns">
+                <a href="#"><i class="bi bi-line"></i></a>
+                <a href="#"><i class="bi bi-google"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+            </nav>
           </div>
-        <div class="login-sns">
-            <a href="#"><i class="bi bi-line"></i></a>
-            <a href="#"><i class="bi bi-google"></i></a>
-            <a href="#"><i class="bi bi-apple"></i></a>
-        </div>
-    </div>
-    </section>
 
-    <footer id="main-footer" class="container">
-      <div class="fBox">
-      <div>
-        <img src="images/footer-logo.png" alt="대한동물병원협회">
-        <nav class="footer-menu">
-        <p>서울시 강남구 언주로 708, 경원빌딩 8층 한국동물병원협회 </p>
-        <p>TEL : 02-522-4722 FAX:02-522-4740  E-mail: kaha@hanmail.net</p>
-        <p>Copyright 2019 BY KOREAN ANIMAL HOSPITAL ASSOCIATION ALL RIGHTS RESERVED</p>
-        </nav>
-      </div>
-  
-      <div class="fr-menu">
-        <nav class="family-site">
-            <select 
-            name="siteList" 
-            id="siteList">
-            <option disabled selected>family site</option>
-            <option value="#">대한수의사회</option>
-            <option value="#">ROYAL CANIN</option>
-            <option value="#">VALVET</option>
-            <option value="#">Hill's</option>
-            <option value="#">SANIMED</option>
-            <option value="#">Boehringer Ingelheim</option>
-            </select>
-        </nav>
-  
-        <nav class="sns-link">
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-youtube"></i></a>
-        </nav>
-      </div>
-      </div>
+    </nav>
+    </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div>
+            <h1>
+                <a href="./index.html">
+                    <img src="images/footer-logo.png" alt="footer-logo">
+                </a>
+            </h1>
+            <p>서울시 강남구 언주로 708, 경원빌딩 8층 한국동물병원협회</p>
+            <p>TEL : 02-522-4722 FAX:02-522-4740 E-mail: kaha@hanmail.net</p>
+            <p>Copyright 2019 BY KOREAN ANIMAL HOSPITAL ASSOCIATION ALL RIGHTS RESERVED</p>
+         </div>
+         <div>
+         <div class="site">
+            <form>
+                <select name="Family Site" onchange="window.open(value,'_blank');">
+                  <option value="">Family Site</option>
+                  <option value="https://www.royalcanin.com/kr?utm_source=naver&utm_medium=brandsearchPC&utm_content=homelink">ROYAL CANIN</option>
+                  <option value="http://sanimed.co.kr/">SANIMED</option>
+                  <option value="https://www.valvet.co.kr/">VALVET</option>
+                  <option value="https://www.hillspet.co.kr/science-diet?utm_source=naver&utm_medium=cpc&utm_campaign=consideration&dclid=CjkKEQjwi8iXBhCH4qTo0eHB5a4BEiQAcEheL40LYu0FCS-szICzCmqTv825l9DMSDCf8vn1WVIPtw3w_wcB">Hills</option>
+                  <option value="https://www.boehringer-ingelheim.com/">Boehringer Ingelheim</option>
+                  </optgroup>
+                </select>
+              </form>
+          </div>
+          <div class="icon-box">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        </div>
     </footer>
-</body>
+  </body>
 </html>

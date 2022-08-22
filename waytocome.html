@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오시는길</title>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- 웹폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+ 
+  <!-- style.css(공통) -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- mobile.css -->
+  <link 
+    rel="stylesheet" 
+    href="./css/waytocome-m.css" 
+    media="screen and (max-width: 767px)"
+  >
+  <!-- pc.css: -->
+  <link 
+    rel="stylesheet" 
+    href="./css/waytocome-pc.css"
+    media="screen and (min-width: 768px)"
+  >
+  <!-- 제이쿼리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- 내 자바스크립트 -->
+  <script src="./js/main.js"></script>
+
+</head>
+<body>
+  <header id="main-header" class="clearfix">
+    <div class="container-n">
+        <h1>
+            <a href="./index.html">
+                <img src="images/main-logo.png" alt="main-logo">
+            </a>
+        </h1>
+        <nav>
+            <div class="nav-bg"></div>
+            <ul class="gnb">
+                <li><a href="./greeting.html">KAHA소개</a>
+                    <ul class="sub">
+                        <li><a href="./greeting.html">인사말</a></li>
+                        <li><a href="./introduce.html">설립목적</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">기구</a></li>
+                        <li><a href="#">주요업무</a></li>
+                    </ul>
+                </li>
+                <li><a href="./noti.html">홍보활동</a>
+                    <ul class="sub">
+                        <li><a href="./noti.html">공지사항</a></li>
+                        <li><a href="./news.html">보도자료</a></li>
+                        <li><a href="./login.html">자료실</a></li>
+                    </ul>
+                </li>
+                <li><a href="./login.html">학술지원</a></li>
+                <li><a href="./community.html">커뮤니티</a></li>
+                <li><a href="./waytocome.html">오시는 길</a></li>
+            </ul>
+        </nav>
+        <button id="log-btn"><a href="./login.html">LOGIN</a></button>
+        <button id="toggle-btn">
+           <i class="bi bi-list"></i>
+        </button>
+    </div>
+
+             <!-- 메뉴 슬라이드  -->
+
+             <div id="menu">
+              <article>
+                  <h1>
+                      <a href="./index.html">
+                          <img src="images/main-logo.png" alt="menu-main-logo">
+                      </a>
+                  </h1>
+                  <i class="bi bi-x gnb-close"></i>
+              </article>
+              <ul class="m-gnb">
+                  <li><a>KAHA소개</a>
+                  <ul class="m-sub">
+                      <a href="./greeting.html"><li>인사말</li></a>
+                      <a href="./introduce.html"><li>설립목적</li></a>
+                      <a href="./"><li>연혁</li></a>
+                      <a href="./"><li>기구</li></a>
+                      <a href="./"><li>주요업무</li></a>
+                  </ul>
+                  </li>
+              
+                 <li><a>홍보활동</a>
+                      <ul class="m-sub">
+                          <a href="./noti.html"><li>공지사항</li></a>
+                          <a href="./news.html"><li>보도자료</li></a>
+                          <a href="./login.html"><li>자료실</li></a>
+                      </ul>
+                  </li>
+              
+                  <a href="./login.html"><li>학술지원</li></a>
+                  <a href="./community.html"><li>커뮤니티</li></a>
+                  <a href="./waytocome.html"><li>오시는길</li></a>
+              </ul> 
+              <div class="log-box">
+              <a href="./login.html">로그인</a>
+              <a href="#">회원가입</a>
+            </div>
+          </div>
+  
+</header>
+
+<div id="waytocome-banner">오시는 길</div>
+  
+<div class="depth2-menu">
+    <div>
+        <div class="d2-gnb">
+            <a href="./waytocome.html" class="waytocome-title on">오시는 길</a>
+        </div>
+    </div><!--- container -->
+</div><!-- depth2-menu -->
+
+<section id="main-visual">
+  <div class="header">
+    <h1 class="waytocome-t">오시는 길</h1>
+  </div>
+</section>
+
+<div class="map container">
+  <div class="find-way-btn">
+    <a href="#">길찾기<i class="bi bi-arrow-right-short"></i></a>
+  </div>
+  <iframe class="g-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.646869667887!2d127.03570710000001!3d37.5162461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3f493e50fe5%3A0xbb14dced4dbea507!2s708%20Eonju-ro%2C%20Gangnam-gu%2C%20Seoul!5e0!3m2!1sen!2skr!4v1660113824939!5m2!1sen!2skr"
+     width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+<section class="information container">
+  <div class="address">
+    <h3 class="add-icon"><i class="bi bi-geo-alt-fill"></i>주소</h3>
+    <p>서울특별시 강남구 언주로 708, 8층</p>
+  </div>
+
+  <nav class="info-sec">
+  <div class="sub">
+    <h3 class="sub-icon"><i class="bi bi-train-front"></i>지하철로 오시는 방법</h3>
+    <p><img src="./images/7.png" alt="">학동역 10번 출구 도보 5분</p>
+    <p><img src="./images/7.png" alt="">강남구청역 3번 출구 도보 7분</p>
+    <p><img src="./images/su.png" alt="">수인분당선 강남구청역 3번 출구 도보 10분</p>
+  </div>
+  <div class="bus">
+    <h3 class="bus-icon"><i class="bi bi-train-front"></i>버스로 오시는 방법</h3>
+    <p class="normal"><span>일반</span>3412, 3414, 6411, 강남08</p>
+    <p class="short"><span>간선</span>242, 401, 145, 241</p>
+  </div>
+  </nav>
+</section>
+
+      
+    <!-- </div>
+    <iframe class="img-detail" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.646869667887!2d127.03570710000001!3d37.5162461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3f493e50fe5%3A0xbb14dced4dbea507!2s708%20Eonju-ro%2C%20Gangnam-gu%2C%20Seoul!5e0!3m2!1sen!2skr!4v1660113824939!5m2!1sen!2skr"
+     width="1380" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+        <div class="map-size-btn"
+          data-aos="fade-in"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+            >
+            <img src="images/bigscale.png" alt="업">
+            <img src="images/smalscale.png" alt="다운">
+            </div>     
+      </div>
+    </div> -->
+  <!-- <section id="information">
+    <div class="adress">
+      
+      
+       <p class="a-name"><img class="way-point-icon" src="images/eva_pin-fill.png" alt="웨이포인트 아이콘">&nbsp;주소</p>
+       <br>
+       <p class="main-adress">서울특별시 강남구 언주로 708 ,8층</p>
+      </div>
+
+      <div class="inf-detail">
+       <div class="train-inf">
+        <img class="train-icon" src="images/traincon.png" alt="버스아이콘">
+        <p>지하철로 오시는 방법</p>
+      </div>
+    
+        <div class="bus-inf">
+        <img class="bus-icon" src="images/buscon.png" alt="버스아이콘">
+        <p>버스로 오시는 방법</p>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="train-come">
+          
+      <p><img src="images/7.png">학동역 10번 출구 도보 5분</p>
+      <p><img src="images/7.png">강남구청역 3번출구 도보 7분</p> 
+      <p><img src="images/7.png">수인분당선 강남구청역 3번출구 도보 10분</p> 
+    </div>
+
+    <div class="bus-come">
+      <div class="vihicle-icon">
+      <img src="images/normalline.png">
+      <img src="images/subline.png">
+      </div>
+      <p class="bus-number1">3412, 3414, 6411, 강남08</p>
+      <p class="bus-number2">242, 401, 145, 241</p> 
+      
+      </div>
+    
+  </section > -->
+  
+
+  <footer>
+    <div class="container">
+        <div>
+        <h1>
+            <a href="./index.html">
+                <img src="images/footer-logo.png" alt="footer-logo">
+            </a>
+        </h1>
+        <p>서울시 강남구 언주로 708, 경원빌딩 8층 한국동물병원협회</p>
+        <p>TEL : 02-522-4722 FAX:02-522-4740 E-mail: kaha@hanmail.net</p>
+        <p>Copyright 2019 BY KOREAN ANIMAL HOSPITAL ASSOCIATION ALL RIGHTS RESERVED</p>
+     </div>
+     <div>
+     <div class="site">
+        <form>
+            <select name="Family Site" onchange="window.open(value,'_blank');">
+              <option value="">Family Site</option>
+              <option value="https://www.royalcanin.com/kr?utm_source=naver&utm_medium=brandsearchPC&utm_content=homelink">ROYAL CANIN</option>
+              <option value="http://sanimed.co.kr/">SANIMED</option>
+              <option value="https://www.valvet.co.kr/">VALVET</option>
+              <option value="https://www.hillspet.co.kr/science-diet?utm_source=naver&utm_medium=cpc&utm_campaign=consideration&dclid=CjkKEQjwi8iXBhCH4qTo0eHB5a4BEiQAcEheL40LYu0FCS-szICzCmqTv825l9DMSDCf8vn1WVIPtw3w_wcB">Hills</option>
+              <option value="https://www.boehringer-ingelheim.com/">Boehringer Ingelheim</option>
+              </optgroup>
+            </select>
+          </form>
+      </div>
+      <div class="icon-box">
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>
